@@ -1,5 +1,8 @@
 public class TowerOfHanoi {
 
+    // The total number of moves required for n disks is 2^n - 1
+    // Example: For n=3 disks, steps = 2^3 - 1 = 8 - 1 = 7 moves.
+    
     /*
     Solves the Tower of Hanoi puzzle recursively.
     
