@@ -2,8 +2,10 @@ public class ReverseString {
     /*
     Recursively prints the reverse of a string.
     
-    str The input string.
-    idx The current index to process (starts from the last index).
+    Time Complexity: O(n), Space Complexity: O(n)
+    
+    str - The input string.
+    idx - The current index to process (starts from the last index).
     */
     public static void revString(String str, int idx) {
         // Base Case: When the index reaches 0 (the first character),
@@ -31,3 +33,4 @@ public class ReverseString {
         revString(str, str.length() - 1);
     }
 }
+// Output => ecnirP olleH
