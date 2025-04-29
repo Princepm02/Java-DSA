@@ -5,6 +5,8 @@ public class TowerOfHanoi {
     
     /*
     Solves the Tower of Hanoi puzzle recursively.
+
+    Time Complexity: O(2^n), Space Complexity: O(n)
     
     n           The number of disks to move.
     source      The name/identifier of the source rod (e.g., 'A').
