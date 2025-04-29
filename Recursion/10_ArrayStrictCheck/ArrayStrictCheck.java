@@ -3,10 +3,12 @@ public class ArrayStrictCheck {
     /*
     Recursively checks if the array is strictly increasing from the given index onwards.
     This implementation uses short-circuiting.
+
+    Time Complexity: O(n), Space Complexity: O(n)
     
-    arr The input integer array.
-    idx The current index being checked (starts from 0).
-    return - true if the array is strictly increasing from idx to the end, false otherwise.
+    arr - The input integer array.
+    idx - The current index being checked (starts from 0).
+    return -> true if the array is strictly increasing from idx to the end, false otherwise.
     */
     public static boolean checkIfIncreasing(int arr[], int idx) {
         // Base Case: If we reach the last element, it means all previous pairs were increasing.
