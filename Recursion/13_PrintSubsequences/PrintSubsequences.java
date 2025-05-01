@@ -1,8 +1,7 @@
 public class PrintSubsequences {
     /*
-    Time Complexity: O(2^n) — each character can be included or excluded, leading to 2^n subsequences
-    Auxiliary Space Complexity: O(n) — recursion depth proportional to string length
-    Note: Total output space (all printed subsequences) requires O(n · 2^n) characters.
+    Time Complexity: O(n * 2^n) — there are 2^n recursive calls (each char included/excluded) and each call does O(n) work for string operations
+    Space Complexity: O(n) — recursion stack depth
 
     Recursively generates and prints all subsequences of the given string.
 
@@ -64,6 +63,6 @@ Output => Original String: abc
           a
           a
           (empty line for the empty subsequence)
-          
+
           Note: The order of output depends on the order of the recursive calls.
 */
