@@ -34,6 +34,12 @@ public class PrintSubsequences {
         System.out.println("Subsequences:");
         // Start recursion with an empty subsequence at index 0
         printSeq(str, 0, "");
+
+        String str2 = "aaa";
+        System.out.println("Original String: " + str2);
+        System.out.println("Subsequences:");
+        // Start recursion with an empty subsequence at index 0
+        printSeq(str2, 0, "");
     }
 }
 
@@ -48,6 +54,16 @@ Output => Original String: abc
           b
           c
           (empty line for the empty subsequence)
-
+          Original String: aaa
+          Subsequences:
+          aaa
+          aa
+          aa
+          a
+          aa
+          a
+          a
+          (empty line for the empty subsequence)
+          
           Note: The order of output depends on the order of the recursive calls.
 */
